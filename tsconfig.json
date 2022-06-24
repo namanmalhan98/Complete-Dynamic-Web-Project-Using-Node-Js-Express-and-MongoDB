@@ -1,0 +1,13 @@
+{
+  "compilerOptions":{
+    "target": "es6", //Complied Javascript version
+    "module": "commonjs",
+    "outDir": "./dist", //Output folder after complied
+    "rootDir": "./src", //Source folder
+    "declaration": true,
+    "moduleResolution": "node",
+    "sourceMap": true, //Enable source map
+    "strict": true,
+    "esModuleInterop": true
+  }
+  }

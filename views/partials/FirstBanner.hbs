@@ -1,0 +1,19 @@
+    {{!-- Banner1 section --}}
+    <section class="banner1_section py-5 ">
+        <div class="container text-center">
+            <div class="row">
+                <div class="col-md-12">
+
+                        {{#each FirstBanner.heading}}
+                    <h1>
+                       {{this.heading}}
+                    </h1>
+                    <p>
+                      {{this.subHeading}}
+                    </p>
+                    {{/each}}
+                    <button class="btn btn-outline-primary">Start learning</button>
+                </div>
+            </div>
+        </div>
+    </section>
